@@ -143,7 +143,7 @@ const Dashboard = () => {
         backgroundColor: "#ffffff",
         borderBottom: "1px solid #e5e7eb",
         position: "fixed",
-        width: "100%",
+        width: "90%",
         zIndex: 10,
         height: 64,
         display: "flex",
