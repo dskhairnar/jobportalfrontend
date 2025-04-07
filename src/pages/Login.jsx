@@ -47,10 +47,17 @@ const Login = () => {
         </div>
 
         <form onSubmit={handleLogin} style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+          {/* Email */}
           <div>
             <label
               htmlFor="email"
-              style={{ display: "block", fontSize: "0.875rem", fontWeight: "500", color: "#374151", marginBottom: "0.25rem" }}
+              style={{
+                display: "block",
+                fontSize: "0.875rem",
+                fontWeight: "500",
+                color: "#374151",
+                marginBottom: "0.25rem",
+              }}
             >
               Email Address
             </label>
@@ -88,8 +95,8 @@ const Login = () => {
                 placeholder="you@example.com"
                 onChange={handleChange}
                 style={{
-                  width: "75%",
-                  padding: "0.5rem 0.75rem 0.5rem 2.5rem",
+                  width: "100%",
+                  padding: "0.5rem 0.75rem 0.5rem 2.25rem",
                   border: "1px solid #D1D5DB",
                   borderRadius: "0.375rem",
                   fontSize: "0.875rem",
@@ -98,10 +105,17 @@ const Login = () => {
             </div>
           </div>
 
+          {/* Password */}
           <div>
             <label
               htmlFor="password"
-              style={{ display: "block", fontSize: "0.875rem", fontWeight: "500", color: "#374151", marginBottom: "0.25rem" }}
+              style={{
+                display: "block",
+                fontSize: "0.875rem",
+                fontWeight: "500",
+                color: "#374151",
+                marginBottom: "0.25rem",
+              }}
             >
               Password
             </label>
@@ -140,7 +154,7 @@ const Login = () => {
                 onChange={handleChange}
                 style={{
                   width: "100%",
-                  padding: "0.5rem 0.75rem 0.5rem 2.5rem",
+                  padding: "0.5rem 0.75rem 0.5rem 2.25rem",
                   border: "1px solid #D1D5DB",
                   borderRadius: "0.375rem",
                   fontSize: "0.875rem",
@@ -149,6 +163,7 @@ const Login = () => {
             </div>
           </div>
 
+          {/* Submit */}
           <div>
             <button
               type="submit"
@@ -178,14 +193,7 @@ const Login = () => {
                     fill="none"
                     viewBox="0 0 24 24"
                   >
-                    <circle
-                      cx="12"
-                      cy="12"
-                      r="10"
-                      stroke="currentColor"
-                      strokeWidth="4"
-                      style={{ opacity: 0.25 }}
-                    />
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" style={{ opacity: 0.25 }} />
                     <path
                       fill="currentColor"
                       d="M4 12a8 8 0 018-8V0C5.37 0 0 5.37 0 12h4zm2 5.29A7.96 7.96 0 014 12H0c0 3.04 1.14 5.82 3 7.94l3-2.65z"
@@ -201,6 +209,7 @@ const Login = () => {
           </div>
         </form>
 
+        {/* Register link */}
         <div style={{ textAlign: "center", fontSize: "0.875rem", marginTop: "1.5rem" }}>
           <p style={{ color: "#4B5563" }}>
             Don't have an account?{" "}
