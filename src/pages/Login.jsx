@@ -95,7 +95,7 @@ const Login = () => {
                 placeholder="you@example.com"
                 onChange={handleChange}
                 style={{
-                  width: "80%",
+                  width: "90%",
                   padding: "0.5rem 0.75rem 0.5rem 2.25rem",
                   border: "1px solid #D1D5DB",
                   borderRadius: "0.375rem",
@@ -153,7 +153,7 @@ const Login = () => {
                 placeholder="••••••••"
                 onChange={handleChange}
                 style={{
-                  width: "80%",
+                  width: "90%",
                   padding: "0.5rem 0.75rem 0.5rem 2.25rem",
                   border: "1px solid #D1D5DB",
                   borderRadius: "0.375rem",
